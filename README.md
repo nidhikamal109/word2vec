@@ -1,0 +1,8 @@
+# word2vec
+It is a word embedding technique used in natural language processing (NLP) . Word2vec provides prediction based word embeddings. 
+It uses three layers neural network for predicting the vector of a word given its context or vice versa. 
+There are two types of techniques available in word2vec -
+1. CBOW (continuos bag of words) - it predicts the probability of a word given a context of a word(s) .
+2. Skip gram model - it predicts the context for a given word . 
+
+The notebooks, in the respective folder, implement the above two techniques . the python code explains the working of the neural network in cbow and skip gram .
